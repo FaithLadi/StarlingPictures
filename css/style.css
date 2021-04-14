@@ -125,19 +125,10 @@ ol {
 
 /*---------------------
   Commom elements
------------------------*/
-
-.elements-section {
-	padding-top: 120px;
-}
-
-.element {
+-----------------------*/.element {
 	margin-bottom: 100px;
 }
 
-.element:last-child {
-	margin-bottom: 0;
-}
 
 .el-title {
 	margin-bottom: 62px;
@@ -974,103 +965,6 @@ ol {
 	margin: 0 auto;
 }
 
-/* ----------------
-  Blog section
----------------------*/
-
-.blog-section {
-	padding: 120px 0;
-}
-
-.blog-warp {
-	max-width: 1386px;
-	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.blog-post {
-	text-align: center;
-	padding: 0 20px;
-	margin-bottom: 120px;
-}
-
-.blog-post img {
-	padding: 0 15px;
-	margin-bottom: 50px;
-}
-
-.blog-post .blog-date {
-	display: inline-block;
-	font-size: 12px;
-	line-height: 1.1;
-	color: #fff;
-	padding: 9px 17px;
-	margin-bottom: 20px;
-	background: #212121;
-}
-
-.blog-post h3 {
-	margin-bottom: 10px;
-}
-
-.blog-post .blog-cata {
-	margin-bottom: 30px;
-}
-
-.blog-post .blog-cata span {
-	display: inline-block;
-	font-size: 14px;
-	color: #bcbcbc;
-	font-weight: 500;
-	padding-right: 13px;
-	margin-right: 11px;
-	position: relative;
-}
-
-.blog-post .blog-cata span:after {
-	position: absolute;
-	content: "|";
-	right: 0;
-	top: 0;
-	font-size: 14px;
-	color: #bcbcbc;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-
-.blog-post .blog-cata span:last-child {
-	margin-right: 0;
-	padding-right: 0;
-}
-
-.blog-post .blog-cata span:last-child:after {
-	display: none;
-}
-
-.blog-post p {
-	margin-bottom: 35px;
-	padding: 0 11px;
-}
-
-.site-pagination {
-	text-align: center;
-}
-
-.site-pagination a {
-	display: inline-block;
-	height: 42px;
-	font-size: 14px;
-	font-weight: 500;
-	color: #888888;
-	padding: 11px 5px;
-}
-
-.site-pagination a.current {
-	color: #fff;
-	background: #212121;
-	padding: 11px 13px;
-}
 
 /* ----------------
   Contact page
